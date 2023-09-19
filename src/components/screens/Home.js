@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import NavBar from "../NavBar";
-import Footer from "../Footer";
+
 import Card from "../Card";
 import Caarousel from "../Carousel";
 
@@ -82,7 +82,7 @@ function Home() {
                         return (
                           <div
                             key={filterItems._id}
-                            className="col-12 col-md-6 col-lg-3"
+                            className="col-12 col-md-6 mr-3 col-lg-3"
                           >
                             <Card
                               foodItem={filterItems}
